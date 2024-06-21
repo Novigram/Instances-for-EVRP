@@ -1,0 +1,29 @@
+This package contains the instances described in the paper:
+
+Comparison of Compact Formulations for the Electric Vehicle Routing Problem(2024). 
+
+We give a brief description of the package content. 
+
+The instances are obtained as described in Section 5.1.
+
+--  Benchmark Instances:
+     
+    ** Datas
+  
+	The number of customers, rehcarging stations are given in the second row "A2 : B2";
+	
+	The size of fleet, load capacity, and battery capacity are showed in the fifth row "A5 : C5“;
+	
+	From the ninth row：
+	
+	Column "NO." shows the number of each vertex, where ”D“, ”C“, ”F“ denote depot, customers,
+	and recharging stations, respectively;
+	
+	Column ”XCOOR“ and "YCOOR" give the x- and y-axis coordinates;
+	
+	Column "Demand" proivde the demand of vertices, where the demand of depot and recharging stations equals to 0. 
+
+    ** Distance
+    
+    Let x_ij = x_i - x_j and y_ij = y_i - y_j. The distance d_ij between vertex i and vertex j is calculated by 
+	Euclidean distance. Specifically,  d_ij =sqrt( pow (x_ij, 2) + pow (y_ij, 2))/100
